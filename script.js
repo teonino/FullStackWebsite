@@ -92,3 +92,11 @@ fetch('https://restcountries.com/v3.1/all')
         }
     })
 
+function myFunction(){
+    var x = document.getElementById("myTopnav");
+    if(x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
