@@ -133,3 +133,9 @@ body{
     display: block;
     text-align: center;
   }
+
+  .rollbutton
+  {
+    float: center;
+    justify-content: center;
+  }
