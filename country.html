@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Home</title>
+        <title>Country and Weather Info</title>
 
         <link rel="stylesheet" href="style.css">
     </head>
@@ -22,8 +22,20 @@
             
         </div>
 
-        <h1>Home</h1>
-        <p> Welcome to the site I'm coding in order to increase my technical skills</p>
+
+        <h1> Country and Weather info</h1>
+
+        <label for = "country-select">Select a country:</label>
+        <select id="country-select">
+            <option id="loading-option" disabled selected>Loading countries...</option>
+        </select>
+
+        <div id = "country-info"></div>
+
+        <!-- <button id="load-data-btn">Show info</button> -->
+
+        <div id="country-info"></div>
+        <div id="weather-info"></div>
         
         <script src="script.js"></script>
         
